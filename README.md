@@ -11,9 +11,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -21,12 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot](/image/Screenshot.png "This is a Screenshot of the solution.")
+![Screenshot](/images/Screenshot.png "This is a Screenshot of the solution.")
 
 ### Links
 
-- Solution URL: [github](https://www.github.com/simmax456/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://www.github.com/simmax456/)
+- Live Site URL: [Netlify](https://myqrcodecomponent.netlify.app/)
 
 ## My process
 
@@ -39,10 +37,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I tried using flex properties to align my container to the center vertically to no success, so i took to our neighbourhood friend - google.
 
-To see how you can add code snippets, see below:
+I came across the css transform property in the process of searching for a way to align my container vertically and horizontally.
 
+I achieved the vertical and horizontal centering of the container with the code snippet below
 
 ```css
 .container {
@@ -58,12 +57,8 @@ To see how you can add code snippets, see below:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In the future, i want to properly understand how to properly handle/structure layouts and contents using both flex and css grid.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
