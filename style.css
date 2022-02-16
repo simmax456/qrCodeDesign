@@ -9,9 +9,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
-    background-color: var(--Light-gray);
+    display: flex;
+    flex-direction: column;
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    background-color: var(--Light-gray);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -29,17 +34,13 @@ p {
     font-size: 0.9375em;
     line-height: 1.1875em;
     letter-spacing: 0.013em;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
 }
 
 .container {
     background-color: var(--White);
     border-radius: 20px;
-    width: 320px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    width: 310px;
 }
 
 .card {
@@ -52,12 +53,12 @@ p {
     max-width: 100%;
     border-radius: 12px;
     margin-bottom: 24px;
-}
+}   
 
 .attribution {
     font-size: 11px;
     text-align: center;
-    padding-top: 60em;
+    /* padding-top: 60em; */
 }
 
 .attribution a {
