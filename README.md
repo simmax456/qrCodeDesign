@@ -40,7 +40,7 @@ I tried using flex properties to align my container to the center vertically to 
 
 I came across the css transform property in the process of searching for a way to align my container vertically and horizontally.
 
-I achieved the vertical and horizontal centering of the container with the code snippet below
+I initially achieved the vertical and horizontal centering of the container with the code snippet below;
 
 ```css
 .container {
@@ -53,6 +53,19 @@ I achieved the vertical and horizontal centering of the container with the code 
     transform: translate(-50%, -50%); 
 }
 ```
+
+After reading through different codes online, i eventually centered my design both horizontally and vertically by setting my container _body_ to flex and _page height_ to 100% of the viewport with the code snippet below;
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+```
+
 
 ### Continued development
 
